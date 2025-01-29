@@ -29,7 +29,9 @@ int main(){
 	    ans=n1/n2;
 	    printf("\n%d/%d=%d",n1,n2,ans);
 	    break;
-	
+	default:
+	    printf("\n  invalid choice");
+	    break;
   
   }
 return 0;
