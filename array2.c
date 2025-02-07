@@ -19,10 +19,15 @@ int main(){
   for(i=0;i<row;i++){
     for(j=0;j<col;j++){
       if (i==j){
-        sum=sum+array[i][j];
+        array[i][j]=0;
       }
     }
   }
-  printf("%d",sum);
+  for(i=0;i<row;i++){
+    for(j=0;j<col;j++){
+    printf("%d\t",array[i][j]);
+      }
+    printf("\n");
+  }
   return 0;
-}
+  }
